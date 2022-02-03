@@ -14,3 +14,4 @@ if [ ! -v NGINX_LOG_TO_VOLUME -a -v NGINX_LOG_PATH ]; then
 fi
 
 cd /opt/app-root/src/ && ./goserver&
+exec nginx -g "daemon off;"
