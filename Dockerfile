@@ -5,7 +5,7 @@ FROM centos/s2i-core-centos7
 # Volumes:
 #  * /var/opt/rh/rh-nginx112/log/nginx/ - Storage for logs
 
-EXPOSE 8282
+EXPOSE 8281
 EXPOSE 8443
 
 ENV NAME=nginx \
